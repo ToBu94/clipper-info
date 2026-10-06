@@ -11,7 +11,7 @@
 </head>
 <body>
 <h1>Privacy Policy</h1>
-<p><em>Last updated: 3 October 2026</em></p>
+<p><em>Last updated: 6 October 2026</em></p>
 
 <h2>Who uses this app</h2>
 <p>highlight-clipper is a private tool used only by its operator to upload
@@ -19,10 +19,16 @@ video clips to the operator's own YouTube channel. It is not offered to
 other users.</p>
 
 <h2>What data is accessed</h2>
-<p>The app requests a single Google permission:
-<code>https://www.googleapis.com/auth/youtube.upload</code>. It is used only to
-upload videos created by the tool to the operator's own channel. The app does
-not read, collect or analyse any other Google account data.</p>
+<p>The app requests two Google permissions:</p>
+<ul>
+<li><code>https://www.googleapis.com/auth/youtube.upload</code> – to upload videos
+created by the tool to the operator's own channel.</li>
+<li><code>https://www.googleapis.com/auth/yt-analytics.readonly</code> – to read
+aggregated statistics of the operator's own videos (views, average watch
+percentage, traffic sources), so the tool can learn which clips work.</li>
+</ul>
+<p>The app does not read, collect or analyse any other Google account data and
+no data of viewers or other channels.</p>
 
 <h2>Storage</h2>
 <p>The OAuth access and refresh tokens are stored encrypted on the operator's
